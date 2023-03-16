@@ -3,4 +3,8 @@ public struct MyLibrary {
 
     public init() {
     }
+    
+    static func add(_ a: Int, _ b: Int) {
+        print(a+b)
+    }
 }
