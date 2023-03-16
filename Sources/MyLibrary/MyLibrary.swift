@@ -1,9 +1,6 @@
 public struct MyLibrary {
-    static let shared = MyLibrary()
+    public private(set) var text = "Hello, World!"
+
     public init() {
-    }
-    
-    func GreetBuddy() {
-        print("Greet Buddy!!!!!!!!")
     }
 }
