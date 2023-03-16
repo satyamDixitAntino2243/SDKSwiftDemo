@@ -4,7 +4,7 @@ public struct MyLibrary {
     public init() {
     }
     
-    public static func GreetBuddy() {
+    public func GreetBuddy() {
         print("Greet Buddy!!!!!!!!")
     }
 }
