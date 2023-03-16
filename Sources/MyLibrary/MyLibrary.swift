@@ -1,5 +1,5 @@
 public struct MyLibrary {
-    public static let shared = MyLibrary()
+    static let shared = MyLibrary()
     public init() {
     }
     
